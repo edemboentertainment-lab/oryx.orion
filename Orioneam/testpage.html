@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название игры/мода - Orioneam</title>
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Тот же header, что и в index.html -->
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Orioneam Logo" class="logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="catalog.html"><i class="fas fa-gamepad"></i> Каталог</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Сообщество</a></li>
+                    <li><a href="#"><i class="fas fa-paint-brush"></i> Творчество</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="game-page">
+        <!-- Hero секция с обложкой игры -->
+        <section class="game-hero">
+            <div class="game-hero-container">
+                <div class="game-cover">
+                    <img src="https://via.placeholder.com/460x215" alt="Обложка игры">
+                </div>
+                <div class="game-hero-content">
+                    <h1 class="game-title">Название игры/мода</h1>
+                    <div class="game-meta">
+                        <span class="game-developer">Разработчик: <a href="#">Имя разработчика</a></span>
+                        <span class="game-date">Дата выхода: 01.01.2025</span>
+                    </div>
+                    <div class="game-actions">
+                        <a href="files/Orionopedia/OrionopediaInstaller.exe" class="btn-download"><i class="fas fa-download"></i> Скачать</a>
+                    </div>
+                    <div class="game-tags">
+                        <span class="tag">Orion Sandbox</span>
+                        <span class="tag">Мод</span>
+                        <span class="tag">Приключение</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Основной контент страницы -->
+        <div class="game-content-container">
+            <!-- Левая колонка -->
+            <div class="game-main-content">
+                <!-- Галерея скриншотов -->
+                <section class="game-screenshots">
+                    <h2>Скриншоты</h2>
+                    <div class="screenshots-grid">
+                        <img src="https://via.placeholder.com/600x338" alt="Скриншот 1">
+                        <img src="https://via.placeholder.com/600x338" alt="Скриншот 2">
+                        <img src="https://via.placeholder.com/600x338" alt="Скриншот 3">
+                    </div>
+                </section>
+
+                <!-- Описание игры -->
+                <section class="game-description">
+                    <h2>Об этой игре/моде</h2>
+                    <p>Полное описание игры или мода. Здесь можно рассказать о ключевых особенностях, сюжете, геймплее и других важных деталях.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Особенность 1</li>
+                        <li><i class="fas fa-check"></i> Особенность 2</li>
+                        <li><i class="fas fa-check"></i> Особенность 3</li>
+                    </ul>
+                </section>
+
+                <!-- Системные требования -->
+                <section class="game-requirements">
+                    <h2>Системные требования</h2>
+                    <div class="requirements-grid">
+                        <div class="requirements-col">
+                            <h3>Минимальные</h3>
+                            <ul>
+                                <li><strong>ОС:</strong> Windows 7</li>
+                                <li><strong>Процессор:</strong> Intel Core i3</li>
+                                <li><strong>Память:</strong> 4 GB RAM</li>
+                                <li><strong>Видеокарта:</strong> Intel HD Graphics</li>
+                                <li><strong>Место на диске:</strong> 2 GB</li>
+                            </ul>
+                        </div>
+                        <div class="requirements-col">
+                            <h3>Рекомендуемые</h3>
+                            <ul>
+                                <li><strong>ОС:</strong> Windows 10</li>
+                                <li><strong>Процессор:</strong> Intel Core i5</li>
+                                <li><strong>Память:</strong> 8 GB RAM</li>
+                                <li><strong>Видеокарта:</strong> NVIDIA GTX 1050</li>
+                                <li><strong>Место на диске:</strong> 2 GB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Правая колонка -->
+            <aside class="game-sidebar">
+                <!-- Инфоблок -->
+                <div class="game-info-block">
+                    <img src="https://via.placeholder.com/231x87" alt="Логотип игры" class="game-logo">
+                    <div class="info-row">
+                        <span class="info-label">Разработчик:</span>
+                        <span class="info-value">Название студии</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Издатель:</span>
+                        <span class="info-value">Orioneam Community</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Дата выхода:</span>
+                        <span class="info-value">01.01.2025</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Платформа:</span>
+                        <span class="info-value">Windows</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Версия Orion Sandbox:</span>
+                        <span class="info-value">1.5.0+</span>
+                    </div>
+                </div>
+
+                <!-- Рейтинг и статистика -->
+                <div class="game-stats">
+                    <div class="rating-block">
+                        <div class="rating-score">4.8</div>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="rating-count">124 оценки</div>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Загрузки:</span>
+                        <span class="stats-value">5,421</span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">В избранном:</span>
+                        <span class="stats-value">892</span>
+                    </div>
+                </div>
+
+                <!-- Похожие моды/игры -->
+                <div class="similar-games">
+                    <h3>Похожие проекты</h3>
+                    <div class="similar-game">
+                        <img src="https://via.placeholder.com/184x69" alt="Похожая игра">
+                        <div class="similar-game-info">
+                            <a href="#" class="similar-game-title">Название похожей игры</a>
+                            <span class="similar-game-price">Бесплатно</span>
+                        </div>
+                    </div>
+                    <div class="similar-game">
+                        <img src="https://via.placeholder.com/184x69" alt="Похожая игра">
+                        <div class="similar-game-info">
+                            <a href="#" class="similar-game-title">Другая похожая игра</a>
+                            <span class="similar-game-price">Бесплатно</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <!-- Тот же footer, что и в index.html -->
+        <div class="footer-top">
+            <div class="footer-section">
+                <h4>Orioneam</h4>
+                <ul>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Правила</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Ресурсы</h4>
+                <ul>
+                    <li><a href="#">Моды</a></li>
+                    <li><a href="#">Фан-игры</a></li>
+                    <li><a href="#">Файлы игр</a></li>
+                    <li><a href="https://orionopedia.fandom.com/ru/wiki/%D0%9E%D1%80%D0%B8%D0%BE%D0%BD%D0%BE%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F_%D0%92%D0%B8%D0%BA%D0%B8">Орионопедия</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Сообщество</h4>
+                <ul>
+                    <li><a href="https://t.me/Oriononews"> Orionnews (Telegram)</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li><a href="https://vk.com/orionopediaofficial">Группа ВК</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Orioneam | Все права на проект принадлежат Edembo Entertainment Studios, а права на франшизу Orion Sandbox принадлежат их законным владельцам.</p>
+        </div>
+    </footer>
+
+    <script src="js/page.js"></script>
+</body>
+</html>

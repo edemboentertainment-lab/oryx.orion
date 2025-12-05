@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruffle - Orioneam</title>
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Тот же header, что и в index.html -->
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Orioneam Logo" class="logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="catalog.html"><i class="fas fa-gamepad"></i> Каталог</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Сообщество</a></li>
+                    <li><a href="#"><i class="fas fa-paint-brush"></i> Творчество</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="game-page">
+        <!-- Hero секция с обложкой игры -->
+        <section class="game-hero">
+            <div class="game-hero-container">
+                <div class="game-cover">
+                    <img src="images/Ruffle/bannerruf.avif" alt="Обложка игры">
+                </div>
+                <div class="game-hero-content">
+                    <h1 class="game-title">Ruffle</h1>
+                    <div class="game-meta">
+                        <span class="game-developer">Разработчик: <a href="#"> Майк Уэлш</a></span>
+                        <span class="game-date">Дата выхода: 2016г.</span>
+                    </div>
+                    <div class="game-actions">
+                        <a href="https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-10-17/ruffle-nightly-2025_10_17-windows-x86_32.zip" class="btn-download"><i class="fas fa-download"></i> Скачать на ПК</a>
+                        <a href="https://f-droid.org/repo/rs.ruffle_2510134.apk" class="btn-download"><i class="fas fa-download"></i> Скачать на андроид</a>
+                    </div>
+                    <div class="game-tags">
+                        <span class="tag">Flash Player</span>
+                        <span class="tag">Эмулятор</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Основной контент страницы -->
+        <div class="game-content-container">
+            <!-- Левая колонка -->
+            <div class="game-main-content">
+                <!-- Галерея скриншотов -->
+                <section class="game-screenshots">
+                    <h2>Скриншоты</h2>
+                    <div class="screenshots-grid">
+                        <img src="images/Ruffle/screenshot1.png" alt="Скриншот 1">
+                        <img src="images/Ruffle/screenshot2.webp" alt="Скриншот 2">
+                        <img src="images/Ruffle/screenshot3.png" alt="Скриншот 3">
+                    </div>
+                </section>
+
+                <!-- Описание игры -->
+                <section class="game-description">
+                    <h2>Об этой эмуляторе</h2>
+                    <p>Ruffle — эмулятор Adobe Flash Player с открытым исходным кодом для файлов SWF. В настоящее время он находится в разработке на GitHub.</p>
+                    <p>Ruffle написан на Rust и доступен как настольный клиент и как веб-клиент.
+
+В настоящее время Ruffle поддерживает более старый Flash-контент, в котором используется ActionScript 1.0 / 2.0, также с августа 2022 года Ruffle стал поддерживать ActionScript 3.0, но не полностью. Полная поддержка этой версии языка появится в ближайшее время.</p>
+                    <p>В 2016 году Майк Уэлш начал проект под названием Fluster. Позднее переименованный в Ruffle, этот проект трансформировался в эмулятор Flash Player, написанный на Rust, с настольным и веб-клиентом.
+
+В период с 2019 по 2020 год некоторые веб-сайты объявили, что будут использовать Ruffle. Newgrounds объявил, что весь флеш-контент будет использовать Ruffle и что весь встроенный Flash-код будет заменен эквивалентами Ruffle. В июне 2020 года Coolmath Games объявила, что теперь все ее Flash-игры будут использовать Ruffle. В ноябре 2020 года Internet Archive объявил, что они будут использовать Ruffle для сохранения Flash-игр и анимации. В декабре 2020 года Armor Games объявили, что Ruffle был выбран в качестве проигрывателя для Flash-контента, а Homestar Runner объявила о внедрении Ruffle для своих мультфильмов и игр.</p>
+                </section>
+
+                <!-- Системные требования -->
+                <section class="game-requirements">
+                    <h2>Системные требования</h2>
+                    <div class="requirements-grid">
+                        <div class="requirements-col">
+                            <h3>Минимальные</h3>
+                            <ul>
+                                <li><strong>ОС:</strong> Windows 7</li>
+                                <li><strong>Процессор:</strong> intel core i3 or equivalent</li>
+                                <li><strong>Память:</strong> 2 GB ОЗУ</li>
+                                <li><strong>Видеокарта:</strong> minimal requirements</li>
+                                <li><strong>Место на диске:</strong> 100 MB</li>
+                            </ul>
+                        </div>
+                        <div class="requirements-col">
+                            <h3>Рекомендуемые</h3>
+                            <ul>
+                                <li><strong>ОС:</strong> Windows 10</li>
+                                <li><strong>Процессор:</strong> intel core i5 or equivalent</li>
+                                <li><strong>Видеокарта:</strong> nVidia 7xx or Radeon equivalent</li>
+                                <li><strong>Место на диске:</strong> 100 MB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Правая колонка -->
+            <aside class="game-sidebar">
+                <!-- Инфоблок -->
+                <div class="game-info-block">
+                    <img src="images/Ruffle/logo.svg" alt="Логотип игры" class="game-logo">
+                    <div class="info-row">
+                        <span class="info-label">Разработчик:</span>
+                        <span class="info-value">Майк Уэлш</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Издатель:</span>
+                        <span class="info-value">Майк Уэлш</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Дата выхода:</span>
+                        <span class="info-value">2016г.</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Платформа:</span>
+                        <span class="info-value">Windows</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Версия Ruffle:</span>
+                        <span class="info-value">0.2.0-nightly.2025.10.10</span>
+                    </div>
+                </div>
+
+                <!-- Рейтинг и статистика -->
+                <div class="game-stats">
+                    <div class="rating-block">
+                        <div class="rating-score">4.2</div>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                <!-- Похожие игры -->
+                <div class="similar-games">
+                    <h3>Похожие проекты</h3>
+                    <div class="similar-game">
+                        <img src="images/Orion Sandbox/bannerOS.jpeg" alt="Похожая игра">
+                        <div class="similar-game-info">
+                            <a href="OSpage.html" class="similar-game-title">Orion Sandbox</a>
+                            <span class="similar-game-price">Бесплатно</span>
+                        </div>
+                    </div>
+                    <div class="similar-game">
+                        <img src="images/Orion Online/bannerOO.webp" alt="Похожая игра">
+                        <div class="similar-game-info">
+                            <a href="OOpage.html" class="similar-game-title">Орион Онлайн</a>
+                            <span class="similar-game-price">Бесплатно</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <div id="download-modal" class="modal hidden">
+  <div class="modal-content">
+    <p>🔽 Загрузка началась... Проверьте папку загрузок.</p>
+  </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-section">
+                <h4>Orioneam</h4>
+                <ul>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Правила</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Ресурсы</h4>
+                <ul>
+                    <li><a href="#">Моды</a></li>
+                    <li><a href="#">Фан-игры</a></li>
+                    <li><a href="#">Файлы игр</a></li>
+                    <li><a href="https://orionopedia.fandom.com/ru/wiki/%D0%9E%D1%80%D0%B8%D0%BE%D0%BD%D0%BE%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F_%D0%92%D0%B8%D0%BA%D0%B8">Орионопедия</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Сообщество</h4>
+                <ul>
+                    <li><a href="https://t.me/Oriononews"> Orionnews (Telegram)</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li><a href="https://vk.com/orionopediaofficial">Группа ВК</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Orioneam | Все права на проект принадлежат Edembo Entertainment Studios, а права на франшизу Orion Sandbox принадлежат их законным владельцам.</p>
+        </div>
+    </footer>
+
+    <script src="js/page.js"></script>
+    <script src="js/download.js"></script>
+</body>
+</html>
