@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oryx - Браузер для фанатов Orion Sandbox</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="black-header">ORYX</div>
+
+    <div class="top-buttons">
+        <button id="btnHome" class="top-button active">Главная</button>
+        <button id="btnGames" class="top-button">Игры</button>
+        <button id="btnOrioneam" class="top-button">Orioneam</button>
+        <button id="btnTheVeilRepository" class="top-button">TheVeilRepository</button>
+    </div>
+
+    <div class="header">
+        <img src="images/header-background.jpg" alt="Фон шапки" loading="lazy">
+        <img src="images/golem.png" class="overlay-image golem" alt="Голем" loading="lazy">
+        <img src="images/mechanic.png" class="overlay-image mechanic" alt="Механик" loading="lazy">
+    </div>
+
+    <div class="container">
+        <div class="search-bar-container">
+            <form class="search-bar">
+                <input type="text" id="searchInput" class="search-input" placeholder="Искать в Oryx..." required>
+                <button type="submit" id="searchButton" class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="quick-links">
+            <a href="https://orionopedia.fandom.com/ru/wiki/Орионопедия_Вики" target="_blank" class="quick-link-button">Орионопедия</a>
+            <a href="https://sites.google.com/view/edembo/главная-страница" target="_blank" class="quick-link-button">Сайт Эдембо</a>
+        </div>
+
+        <h2>Добро пожаловать в Oryx!</h2>
+        <p>Oryx — это специальный браузер, созданный фанатами для фанатов культовой серии <strong>flash-игр Orion Sandbox</strong>. Здесь вы найдете всю необходимую информацию, ссылки на моды, фан-игры и проекты, которые помогают сохранить наследие "Ориона" и вновь погрузиться в ностальгию.</p>
+
+        <div class="news-title-container">
+            <h3 style="font-size: 1.2em; margin: 0;">Новости</h3>
+        </div>
+
+        <div class="news-container" id="news-container">
+            <div class="news-item">
+                <div class="news-date">XX.10.2025</div>
+                <div class="news-title">Альфа версия Oryx</div>
+                <div class="news-description">Выход Альфа версии браузера Oryx. Мы рады представить первый взгляд на наш фан-проект!</div>
+            </div>
+        </div>
+
+        <div class="cards-section">
+            <h3>⭐ Избранное сообщества</h3>
+            <div class="cards-grid">
+                <div class="card-item">
+                    <img src="Orioneam\images\Orion Sandbox\bannerOS.jpeg" alt="Orion Sandbox" class="card-banner" loading="lazy">
+                    <div class="card-content">
+                        <h4>Orion Sandbox</h4>
+                        <p>Легендарная первая часть франшизы.</p>
+                        <a href="Orioneam/OSpage.html" class="card-link">Играть / Скачать</a>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="Orioneam\images\Content Mod\bannercm.png" alt="Content Mod" class="card-banner" loading="lazy">
+                    <div class="card-content">
+                        <h4>Content Mod</h4>
+                        <p>Content Mod — глобальная модификация для игры Orion Sandbox Enhanced</p>
+                        <a href="Orioneam/OSECMpage.html" class="card-link">Играть / Скачать</a>
+                    </div>
+                </div>
+                
+                <div class="card-item">
+                    <img src="Orioneam\images\Orion Online\bannerOO.jpg" alt="Orion Online" class="card-banner" loading="lazy">
+                    <div class="card-content">
+                        <h4>Orion Online</h4>
+                        <p>Фанатское возрождение Ориона Вконтакте, создана AleksKart.</p>
+                        <a href="Orioneam/OOpage.html" class="card-link">Играть / Скачать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-info">
+            <a href="mailto:edemboentertainment@gmail.com">email: edemboentertainment@gmail.com</a>
+        </div>
+        <div class="social-icons-group">
+            <a href="https://discord.com/invite/m3tdHY9d9" target="_blank" class="social-icon" aria-label="Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://youtube.com/@ruslan.khuduev?si=vkOZ3mgDOefQn8Te" target="_blank" class="social-icon" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://vk.com/orion_game_club" target="_blank" class="social-icon" aria-label="ВКонтакте">
+                <i class="fab fa-vk"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
